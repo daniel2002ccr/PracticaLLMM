@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡¡¡SORTEOO!!!</title>
+    <link rel="stylesheet" href="../css/tlou.css">
+</head>
+<body>
+    <header>
+        <h1>THE<br>
+            LAST<br> 
+            OF
+            US</h1>
+        <p>¿Qué pasaría si ese parásito mutase y pudiera soportar altas temperaturas?</p>
+    <nav>
+        <a href="../html/tlou.html">Inicio</a>
+        <a class="separacion" href="../html/protagonistas.html">Protagonistas</a>
+        <a class="separacion" href="../html/noticias.html">Noticias</a>
+    </nav>
+</header>
+<div id="publicidad1">
+    <img src="../imagenes/ads.gif" class="ads">
+    <img src="../imagenes/ads_3.gif" class="ads_separacion">
+</div>
+<div id="publicidad2">
+    <img src="../imagenes/publicidad.gif" class="ads">
+    <img src="../imagenes/ads_2.gif" class="ads_separacion">
+</div>
+    <div id="div2">
+        <p>¿Quieres conocer a Pedro Pascal? ¿O a Bella Ramsey? Estas de suerte porque estamos organizando un sorteo en el cual daremos 10 ganadores para participar en un meet and greet con tu actor favorito.</p>
+        <form action="../html/gracias.html">
+            <fieldset>
+                <legend>¡¡¡SORTEOO!!!</legend>
+                Tu nombre<input type="text"><br><br>
+                Apellidos <input type="text"><br><br>
+                DNI <input type="text"  pattern="[0-9]{8}[A-Z]" required><br><br>
+                Dirección <input type="text" pattern="C/[\w\s]+ Nº[\d]+ P[\w]"><br><br>
+                Ciudad <input type="text"><br><br>
+                Código Postal <input type="text" list="lista"><br><br>
+                <datalist id="lista">
+                    <option>12441</option>
+                    <option>12442</option>
+                    <option>12443</option>
+                    <option>12444</option>
+                    <option>12445</option>
+                </datalist>
+                País <input type="text"><br><br>
+                Fecha de nacimiento <input type="date"><br><br>
+                <fieldset>
+                    <legend>¡¡¡CREA TU CUENTA Y ASI NOS PODREMOS COMUNICAR CONTIGO!!!</legend>
+                Email <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required><br><br>
+                Contraseña <input type="password" pattern="[A-Za-z]{1,7}[A-Za-z0-9]{5}\d{2}" required><br><br>
+            </fieldset>
+            Sexo <input type="text"><br><br>
+            Aficiones <input type="text" list="lista_2"><br><br>
+            <datalist id="lista_2">
+                <option>Fútbol</option>
+                <option>Senderismo</option>
+                <option>Videojuegos</option>
+                <option>Natación</option>
+            </datalist>
+            Foto de perfil <input type="file" accept="image/*"><br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+            </fieldset>
+        </form>
+    </div>
+    <footer>
+        <p>soporteTLOU@gmail.com</p>
+    </footer>
+</body>
+</html>
